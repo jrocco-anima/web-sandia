@@ -1,0 +1,12 @@
+
+
+Proyecto Demo - Sandia
+
+- Introducción proyecto
+- Cuenta zeplin
+	alumno_anima : animasandia
+- Repositorio git con recursos
+	https://github.com/jrocco-anima/web-sandia
+- Carpeta del proyecto, main, css, img
+- Armado html
+- Armado css

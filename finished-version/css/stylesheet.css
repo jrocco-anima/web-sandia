@@ -1,0 +1,213 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #3b3b3b;
+}
+
+header {
+    height: 100vh;
+    background: url(../img/cover.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+	padding-top: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+nav .container {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+.nav-link a {
+	font-family: Bungee;
+	font-size: 19px;
+	color: #4a4a4a;
+	margin-left: 30px;
+}
+
+.header-pre-title {
+	font-family: Bungee;
+	font-size: 43px;
+	color: #ffffff;
+}
+
+.header-title {
+	font-family: Bungee;
+	font-size: 141px;
+	color: #ff4f64;
+}
+
+.header-subtitle {
+	font-size: 29px;
+	font-style: italic;
+	color: #ffffff;
+}
+
+h1 {
+	font-family: Bungee;
+	font-size: 38px;
+	text-align: center;
+}
+
+.subtitle {
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+.section.about {
+	background-color: #ff4f64;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 110px 0 110px 0;
+	color: #ffffff;
+	text-align: center;
+}
+
+.section.about h1 {
+	font-family: Bungee;
+	font-size: 38px;
+	color: #ffffff;
+}
+
+.section.about p {
+	max-width: 600px;
+}
+
+.section.info {
+	padding: 20px;
+}
+
+.row.info {
+	margin-bottom: 20px;
+}
+
+.info-text-container {
+	background-color: #f5f5f5;
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button {
+	font-size: 15px;
+	text-align: center;
+	font-family: OpenSans;
+	text-transform: uppercase;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #3b3b3b;
+	padding: 20px 60px 20px 60px;
+	background-color: rgba(1,1,1,0);
+	margin-top: 40px;
+}
+
+button:hover {
+	background-color: #3b3b3b;
+	color: #ffffff;
+}
+
+.info-img-1 {
+	background: url(../img/about.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.info-img-2 {
+	background: url(../img/benefits.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.section.quote {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.quote {
+	font-size: 20px;
+	font-style: italic;
+}
+
+.quote-autor {
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	color: #3b3b3b;
+}
+
+.section.fotos {
+	padding: 0 20px 0 20px;
+}
+
+.grid-square {
+	padding: 0 10px 0 10px;
+	margin-bottom: 20px; 
+}
+
+.grid-square h1, .grid-square .subtitle {
+	text-align: left;
+}
+
+.square {
+	width: 100%;
+    overflow: hidden;
+}
+
+.square img {
+	width: 100%;
+}
+
+.section.form {
+	padding: 100px 0px 100px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 100%;
+	max-width: 800px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+}
+
+input {
+	width: 100%;
+	height: 45px;
+	border: solid 1px #c7c7c7;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.section.footer {
+	height: 215px;
+	background-color: #242424;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
